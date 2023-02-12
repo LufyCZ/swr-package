@@ -1,0 +1,13 @@
+{
+  "name": "sushi",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@7.9.5",
+  "scripts": {
+    "start": "pnpm --filter client run build && pnpm --filter app run dev"
+  },
+  "engines": {
+    "node": ">=16.x",
+    "pnpm": ">=7.x"
+  }
+}
